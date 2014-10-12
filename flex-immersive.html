@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from www.fullstackacademy.com/flex-immersive by HTTrack Website Copier/3.x [XR&CO'2013], Fri, 10 Oct 2014 19:12:01 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+
+
+  <style> /*
+
+  Welcome, dear wanderer of the Internet, to the source of
+
+   _______  __    __   __       __          _______.___________.    ___       ______  __  ___
+  |   ____||  |  |  | |  |     |  |        /       |           |   /   \     /      ||  |/  /
+  |  |__   |  |  |  | |  |     |  |       |   (----`---|  |----`  /  ^  \   |  ,----'|  '  /
+  |   __|  |  |  |  | |  |     |  |        \   \       |  |      /  /_\  \  |  |     |    <
+  |  |     |  `--'  | |  `----.|  `----.----)   |      |  |     /  _____  \ |  `----.|  .  \
+  |__|      \______/  |_______||_______|_______/       |__|    /__/     \__\ \______||__|\__\
+
+                     ___       ______     ___       _______   _______ .___  ___. ____    ____
+                    /   \     /      |   /   \     |       \ |   ____||   \/   | \   \  /   /
+                   /  ^  \   |  ,----'  /  ^  \    |  .--.  ||  |__   |  \  /  |  \   \/   /
+                  /  /_\  \  |  |      /  /_\  \   |  |  |  ||   __|  |  |\/|  |   \_    _/
+                 /  _____  \ |  `----./  _____  \  |  '--'  ||  |____ |  |  |  |     |  |
+                /__/     \__\ \______/__/     \__\ |_______/ |_______||__|  |__|     |__|
+
+  If you're checking out the source of this web-page, you may be the kind of student
+  we are looking for. When you apply, please add the following LOTR quote to the "Anything
+  Else" section: "It's quite simple: if you are a friend, you speak the password,
+  the doors will open. - Gandalf."
+
+  */</style>
+
+
+  <script src="../cdn.optimizely.com/js/1508873888.js"></script>
+  <meta charset="utf-8" />
+
+  <title>Fullstack Flex Immersive - 16 Week Part-Time Coding Bootcamp - Node.js, Angular.js, JavaScript, MongoDB
+</title>
+  <meta name="description" content="Fullstack Academy">
+  <meta name="author" content="">
+  <meta name="HandheldFriendly" content="true">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link href='http://fonts.googleapis.com/css?family=Permanent+Marker|Montserrat:400,700|Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700|Gentium+Book+Basic:400,400italic' rel='stylesheet' type='text/css'>
+  <link href="../maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+  
+
+
+  <!-- Import CSS -->
+  <link href="assets/application-04bcbb43997e08f20f90fb4ac3b8b7fe.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="css/shortcodes.css">
+
+  <!-- <link rel="stylesheet" href="/css/responsive-nav.css"> -->
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="n6qWynzuCOE7Kt13jWn1HVmvv90OZ2fri6C2D4FpX8Y=" name="csrf-token" />
+  <!--[if lt IE 10]>
+    <link href= "/css/ie.css" rel= "stylesheet" media= "all" />
+  <![endif]-->
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  
+</head>
+
+<body>
+  
+
+  
+  <!-- Start Homepage -->
+  <header id="flex_home">
+    <div id='slides'>
+      <div class="bg hbg1"></div>
+      <div class="bg hbg2"></div>
+      <div class="bg hbg3"></div>
+      <div class="bg hbg4"></div>
+      <div class="bg hbg5"></div>
+      <div class="bg hbg6"></div>
+      <div class="bg hbg7"></div>
+      <div class="bg hbg8"></div>
+    </div>
+
+
+    <div class="pattern"></div>
+    <div class="container">
+      <div class="row">
+        <div class="span4">
+          <a href="index.html" class="logo"><img src="img/fullstack-logo.png" alt="Fullstack Academy of Code"></a>
+        </div>
+        <!-- Navigation -->
+        <nav id="topnav" class="span8">
+          <ul id="fixed-nav" class="visible-desktop">
+            
+
+<li class=''><a class='scroll-link' id='' href='flex-immersive.html#program'>Flex Immersive</a></li>
+<li class=''><a class='scroll-link' id='' href='flex-immersive.html#why_fullstack'>Why Fullstack?</a></li>
+<li class=''><a class='external' id='' href='curriculum.html'>Curriculum</a></li>
+<li class=''><a class='scroll-link' id='' href='flex-immersive.html#students'>Students</a></li>
+<li class=''><a class='scroll-link' id='' href='flex-immersive.html#instructors'>Instructors</a></li>
+<li class=''><a class='scroll-link' id='' href='flex-immersive.html#flex-faq'>FAQ</a></li>
+<li class=''><a class='external' id='' href='employers.html'>Employers</a></li>
+<li class=''><a class='external' id='apply-main' href='apply.html'>Apply</a></li>
+  <!-- <li class=''>
+    <a class='external' href='/'>Home</a>
+  </li>
+  <li class=''><a class='external' href='/#program'>Program</a></li>
+  <li class=''><a class='external' href='/curriculum'>Curriculum</a></li>
+  <li class=''><a class='external' href='/#students'>Students</a></li>
+  <li class=''><a class='external' href='/#instructors'>Instructors</a></li>
+  <li class='current'><a class='external' href='/#apply'>Apply</a></li>
+  <li><a class="external" href='/faq'>FAQ</a></li> -->
+
+          </ul>
+        </nav>
+        <!-- End Navigation -->
+      </div>
+      <div class="row">
+        <div class="span12">
+          <div id="slidecaption">
+            <div style='text-shadow: 1px 1px 3px #666;' class='heading'><span><strong>Fullstack</strong>&nbsp;&nbsp;<span style='font-family: "Open Sans","Gentium Book Basic"; font-weight: 100;'>Flex Immersive</span></span></div>
+            <!-- <div style='text-shadow: 1px 1px 3px #666;'>Coding Education for the future</div> -->
+            <div class="sub-caption">The complete Fullstack experience<br>in a flexible, part-time format over 16 weeks.</div>
+            <a href="#overview" class="btn white scroll-link">Learn More</a>
+            <a href="#applyflex" class="btn blue scroll-link">Apply Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="wrapper" id='flex_wrapper'>
+
+    <!-- Start Sticky Navigation -->
+    <nav id="mainnav">
+      <div class="container">
+        <div class="row">
+          <div class="span4">
+            <a href="#flex_home" class="logo scroll-link" id='sticky_logo'><img src="img/fullstack-logo.png" alt="Fullstack Academy of Code"></a>
+          </div>
+          <div class="span8">
+            <ul id="fluid-nav" class="fluid-navigation visible-desktop">
+              
+
+<li class=''><a class='scroll-link' id='' href='flex-immersive.html#program'>Flex Immersive</a></li>
+<li class=''><a class='scroll-link' id='' href='flex-immersive.html#why_fullstack'>Why Fullstack?</a></li>
+<li class=''><a class='external' id='' href='curriculum.html'>Curriculum</a></li>
+<li class=''><a class='scroll-link' id='' href='flex-immersive.html#students'>Students</a></li>
+<li class=''><a class='scroll-link' id='' href='flex-immersive.html#instructors'>Instructors</a></li>
+<li class=''><a class='scroll-link' id='' href='flex-immersive.html#flex-faq'>FAQ</a></li>
+<li class=''><a class='external' id='' href='employers.html'>Employers</a></li>
+<li class=''><a class='external' id='apply-main' href='apply.html'>Apply</a></li>
+  <!-- <li class=''>
+    <a class='external' href='/'>Home</a>
+  </li>
+  <li class=''><a class='external' href='/#program'>Program</a></li>
+  <li class=''><a class='external' href='/curriculum'>Curriculum</a></li>
+  <li class=''><a class='external' href='/#students'>Students</a></li>
+  <li class=''><a class='external' href='/#instructors'>Instructors</a></li>
+  <li class='current'><a class='external' href='/#apply'>Apply</a></li>
+  <li><a class="external" href='/faq'>FAQ</a></li> -->
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End Sticky Navigation -->
+        <section id="overview" class="page page-gray" style='padding-bottom: 0px;'>
+  <div class="container">
+    <div class="row hide" style='margin-bottom: 10px;'>
+      <div class="span12">
+        <div class="title">Fullstack Academy</div>
+        <hr>
+      </div>
+    </div> <!-- end row -->
+
+
+    <div class="row homelead">
+      <div class="span8">
+        <p class='normtext lead' style='margin: 15px 0 25px; padding: 0 45px;'>Passionate Teachers + Cutting-edge Curriculum + Flexible Schedule. This is <span class="color-text">Fullstack</span>.</p>
+        <p class='normtext spacier'>The <a href="faq.html#why_javascript">JavaScript-driven curriculum</a> in <span class='color-text'>Fullstack</span> Flex immerses you in the latest web technologies such as <span class='dark-text'>Node.js</span>, <span class='dark-text'>Angular.js</span> and <span class='dark-text'>MongoDB</span> while allowing you to keep working.</p> <p class='normtext'>You bring the energy, curiosity and fierce dedication &mdash; we'll provide a world-class school for becoming an expert software developer.</p>
+      </div>
+      <div class="span4">
+
+        <form id="form54hometop" name="form54" class="" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
+        action="https://fullstackacademy.wufoo.com/forms/snrkv7n0z3hvgr/#public">
+  <div class='send_schedule_email' id='get_schedule_form_hometop'>
+
+    <h5>Get the Course Syllabus PDF</h5>
+
+    <p class='syllabus_desc'>Fullstack's next Flex course starts <strong>January 2015</strong>.  Get a PDF course syllabus and our Road to Code starter guide of JS learning resources.</p>
+
+    <div>
+      Email: <input type="text" maxlength='255' id="Field3" name="Field3" type="email" spellcheck="false" placeholder="name@example.com" required>  <input id="saveForm" name="saveForm" class="btn blue" type="submit" value="Send"/>
+    </div>
+
+    <div id='send_road_to_code_box'>
+      <input id="send_road_to_codehometop" name="Field11" type="checkbox" value="Also send me Road To Code" checked />
+      <label for="send_road_to_codehometop">Also send Fullstack's Road to Code Kit <span id='whyroadtocodehometop' class='heartlabel'><i class="fa fa-question-circle"></i></span></label>
+      <input id="info_session_interesthometop" name="Field112" type="checkbox" value="Interested in info session" />
+      <label for="info_session_interesthometop">I'd be interested in attending an info session</label>
+    </div>
+    <div class='whyroadtocode-popover' id='whyroadtocode-popoverhometop'>The "Road to Code" Starter Kit is a <strong>compilation of coding assignments</strong> that are assigned to admitted students before starting Fullstack.</div>
+
+    <input type="hidden" id="idstamp" name="idstamp" value="9FrNyI33HITNml9sQt5zfprlZwL1FH6M4PyeUd+VrhQ=" />
+    <input type="hidden" id="Field9" name="Field9" />
+  </div>
+</form>
+
+
+
+      </div> <!-- end span4 -->
+    </div>
+
+  </div>
+</section>
+
+    <section id="program" class="page" style='padding-top: 50px; padding-bottom: 30px;'>
+      <div class="container">
+        <div class='row'>
+          <div class='span12'>
+            <div class="title">The <span class='color-text'>Fullstack</span> Flex Immersive</div>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <p class='normtext lead'><span class='dark-text'><span class='color-text'>Fullstack's</span> Flex Immersive allows you to study fullstack web development, while keeping your existing job and salary. </span></p>
+
+          <div class="span8">
+            <p>Fullstack's Flex Immersive is a program uniquely designed for <span class='dark-text'>working professionals</span>. Flex covers the same curriculum as our popular full-time immersive program, but it is structured in a part-time weekend/nights format over <span class='dark-text'>16 weeks</span>.</p>
+            <p>You will attend class at the Fullstack campus on Tuesday, Wednesday and Thursday evenings and all day on Saturday. On Monday evening and Sunday, you will work from home, watching lectures and code projects and tutorials in preparation for the upcoming class session. Whether you are at home or in class, Fullstack Instructors will be available to help you!</p>
+            <div style='text-align: center;'>
+              <span style='font-size: 22px;'>The next cohort starts <strong>January 2015</strong>.</span>&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="#applyflex" class="btn blue scroll-link" style='color: #fff;'>Apply Now</a>
+            </div>
+          </div>
+          <div class='span4'>
+            <h5>Course Timings Overview</h5>
+            <ul class='normlist flextimings'>
+            <li>7PM to 10PM &mdash; Tuesday, Wednesday, Thursday</li>
+            <li>10AM to 6:30PM &mdash; Saturday</li>
+            <li>At-Home Review &mdash; Sunday</li>
+            <li>No Assigned Work on Fridays</li>
+            <li><a href="flex-schedule.html" id='get_course_schedule1' class='get_course_schedule'>Detailed course schedule</a>
+            </li>
+            </ul>
+            <form id="form54home" name="form54" class="" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
+        action="https://fullstackacademy.wufoo.com/forms/snrkv7n0z3hvgr/#public">
+  <div class='send_schedule_email' id='get_schedule_form_home'>
+
+    <h5>Get the Course Syllabus PDF</h5>
+
+    <p class='syllabus_desc'>Fullstack's next Flex course starts <strong>January 2015</strong>.  Get a PDF course syllabus and our Road to Code starter guide of JS learning resources.</p>
+
+    <div>
+      Email: <input type="text" maxlength='255' id="Field3" name="Field3" type="email" spellcheck="false" placeholder="name@example.com" required>  <input id="saveForm" name="saveForm" class="btn blue" type="submit" value="Send"/>
+    </div>
+
+    <div id='send_road_to_code_box'>
+      <input id="send_road_to_codehome" name="Field11" type="checkbox" value="Also send me Road To Code" checked />
+      <label for="send_road_to_codehome">Also send Fullstack's Road to Code Kit <span id='whyroadtocodehome' class='heartlabel'><i class="fa fa-question-circle"></i></span></label>
+      <input id="info_session_interesthome" name="Field112" type="checkbox" value="Interested in info session" />
+      <label for="info_session_interesthome">I'd be interested in attending an info session</label>
+    </div>
+    <div class='whyroadtocode-popover' id='whyroadtocode-popoverhome'>The "Road to Code" Starter Kit is a <strong>compilation of coding assignments</strong> that are assigned to admitted students before starting Fullstack.</div>
+
+    <input type="hidden" id="idstamp" name="idstamp" value="9FrNyI33HITNml9sQt5zfprlZwL1FH6M4PyeUd+VrhQ=" />
+    <input type="hidden" id="Field9" name="Field9" />
+  </div>
+</form>
+
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Start Program Page -->
+    <section id="program" class="page">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <div class="title">The Program</div>
+            <hr>
+            <p class='normtext lead'><span class='dark-text'>Our goal is to make you a strong professional developer&mdash;good enough that we'd want to hire you at our own startups.</span></p>
+            <!-- <p class='normtext lead'><span class='dark-text'>We make great people into great developers – great enough that we'd hire you at our own startups.</span></p> -->
+
+            <div class="row">
+              <div class="span12">
+                <h3><span class='color-text'>#</span> Structure</h3>
+                <p class='normtext'>The Fullstack curriculum is divided into three major courses: Foundations, the Academy and Flight. <!-- Foundations is a one-month preparatory course that will strengthen your core programming fundamentals. The Academy is an intensive on-campus 13 week course that will build you up from amateur to professional. Flight is our post-graduation course designed to further sharpen your skills during the recruitment period to ensures you can find a great job. --></p>
+                <div class='row'>
+                  <div class="span4">
+                    <h5><span class='color-text'>Fullstack</span> Foundations</h5>
+                    <p>The first part of your educational journey at Fullstack, Foundations, is an intensive introductory course designed to help you master the core concepts of programming. <span class='dark-text'>Foundations is not just a list of links to online tutorials.</span> You'll be working on a targeted core curriculum with live instructors and real coding projects. You'll be prepared to hit the ground running when you come to campus.</p>
+                  </div>
+                  <div class="span4">
+                    <h5><span class='color-text'>Fullstack</span> Academy - Flex Immersive</h5>
+                    <p>Fullstack Flex Immersive covers the same <a href='curriculum.html'>curriculum</a> as our full-time course, but it is structured in a part-time format over 16 weeks. You'll build many fullstack applications: using MongoDB for data storage, Express and Node.js on the backend, and AngularJS on the front-end to create dynamic and real-time application interfaces.
+                  </div>
+                  <div class="span4">
+                    <h5><span class='color-text'>Fullstack</span> Flight</h5>
+                    <p>In the 2nd half of your course, our placement team will begin matching your interests with employers &mdash; a process that will continue after graduation. With our dedicated training program on technical interviewing and becoming a star developer, we'll <span class='dark-text'>make sure you're ready for whatever your next step after Fullstack is.</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row" style="margin-top:20px">
+              <div class="span12" style='text-align: center;'>
+                <p style='font-size: 24px; font-weight: normal;'>Learn more about the <a href="flex-schedule.html">course schedule</a>.</p>
+              </div>
+            </div>
+
+            <p class='normtext lead hide' style='font-size: 30px; padding: 0 9%;'><span class='dark-text'>Being a <span class='color-text'>Fullstack</span> Developer isn't about knowing everything, but about being fearless in the face of new technologies and challenges.</span></p>
+            <br><br>
+
+            <h3><span class='color-text'>#</span> What will I learn?</h3>
+            <div class='row'>
+              <div class='span3 normtext'>
+                <h5>Fundamentals</h5>
+                <p>We build a solid core of programming fundamentals to catalyze a long and productive career in software development.  Master the technologies that are currently in-demand and gain the foundation to learn the innovative technologies of the future.</p>
+              </div>
+              <div class='span3 normtext'>
+                <h5>FullStack Web Development</h5>
+                <p>Our namesake is our promise. You'll learn end-to-end web development using Node.js/Express, JavaScript, Angular.js, HTML5, and CSS3. You'll develop and hone your code-sense for seeing problems and imagining innovative ways to solve them in code.</p>
+              </div>
+              <div class='span3 normtext'>
+                <h5>Best Practices and Tools</h5>
+                <p>Professional development is a lot more than just writing code. You'll learn best-practices and how to use all the right tools, from source control to web inspector to analytics.</p>
+              </div>
+              <div class='span3 normtext'>
+                <h5>Developer Culture</h5>
+                <p>
+                  Fullstack will immerse you in one of the most vibrant tech communities in the world. You'll contribute to open source, attend tech meetups, <a href="http://blog.fullstackacademy.com/post/78441810309/hacks-through-history">win hackathons</a> and build a strong network in Silicon Alley.
+                </p>
+              </div>
+            </div>
+
+            <section class='application_section' id='flex-faq'>
+              <h1 class='application_h1'>FUllSTACK FLEX <span class='color-text'>FAQ</span></h1>
+              <hr/>
+              <!-- Start Accordion -->
+              <!-- <h3>Fullstack Academy</h3> -->
+
+              <div class="accordion">
+
+                <div class="accordion-wrp">
+                  <h6>Q1. What are the dates of the Flex Program?</h6>
+                  <div class="accordion-content">
+                    <p>Our next class of Fullstack Flex will begin January 2015. </p>
+                  </div>
+                </div>
+
+                <div class="accordion-wrp">
+                  <h6>Q2. Can I keep working during the Flex Immersive?</h6>
+                  <div class="accordion-content">
+                    <p>Yes, the Flex Immersive is designed to allow you to keep working during the course. That said, the course will be just as intensive as the full-time program (if not more) and so be prepared to dedicate most of your evenings and weekends to coding.</p>
+                  </div>
+                </div>
+
+                <div class="accordion-wrp">
+                  <h6>Q3. Do I have to participate in Hiring Day after Fullstack?</h6>
+                  <div class="accordion-content">
+                    <p>You will have the opportunity to participate in a Hiring Day after Fullstack if you wish to explore development positions, however, there is no requirement to do so. You are welcome to apply your code-ninja skills to make your existing job more awesome!</p>
+                  </div>
+                </div>
+
+                <div class="accordion-wrp">
+                  <h6>Q4. How long is the Fullstack Flex Class?</h6>
+                  <div class="accordion-content">
+                    <p>The Fullstack Flex Immersive course is 16 weeks long.</p>
+                  </div>
+                </div>
+
+                <div class="accordion-wrp">
+                  <h6>Q5. What does the program cost?</h6>
+                  <div class="accordion-content">
+                    <p>Tuition is $12,500 for the semester. Fullstack also offers the Ada Lovelace Scholarship for Women which is a $1,000 scholarship to encourage women to attend.</p>
+                  </div>
+                </div>
+
+                <div class="accordion-wrp">
+                  <h6>Q6. I have other questions, whom do I contact?</h6>
+                  <div class="accordion-content">
+                    <p>We are happy to answer any further questions you have, email us at flex@fullstackacademy.com.</p>
+                  </div>
+                </div>
+
+              </div>
+              <!-- End Accordion -->
+            </section>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Start Parallax -->
+    <section id="parallax2" style='height:350px;'>
+      <div class="bg5"></div>
+      <div class="pattern"></div>
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <div class="vertical-text" style='color:#fff;height: 350px;position: relative;'>
+                <div class='lead' style='font-size: 40px; width: 100%; padding:0;'>"Education is not the filling of a pail, but the lighting of a fire."
+                <div style='font-size: 24px;text-align:right; margin-top: 15px;padding-right: 200px;'>-William Butler Yeats</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Parallax -->
+
+
+
+    <!-- Start About Page -->
+    <!-- End About Page -->
+    <!-- Start Program Page -->
+    <section id="why_fullstack" class="page" style='padding-top: 30px;'>
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <div class="title" style='margin-top: 20px;'>The <span class='color-text'>Fullstack</span> Advantage</div>
+            <hr>
+            <div class="container">
+               <div class="row">
+                 <div class="span12">
+                   <p class='normtext lead'><span class='dark-text'>The <span class='color-text'>Fullstack</span> Academy team is committed to bringing you the highest quality coding education program in the country.</span></p>
+
+                   <p class="normtext hide">The Fullstack Academy team is committed to bringing you the <span class='dark-text'>highest quality coding education program in the country</span>. You will graduate a fearless, full-stack software developer.</p>
+
+                     <div class="row">
+                       <div class="panels-item span6">
+                         <i class="icon ion-coffee text-color-theme"></i>
+                         <h5>Cutting-edge Curriculum</h5>
+                         <p>We teach computer science using fullstack JavaScript. JavaScript is here in a big way and it is growing <a href="http://venturebeat.com/2011/08/16/linkedin-node/">bigger</a> <a href="http://www.techworld.com.au/article/536950/rise_rise_javascript/">every</a> <a href="http://adambard.com/blog/top-github-languages-for-2013-so-far/">day</a>. Today's internet demands real-time, interactive and dynamic apps that are built in JavaScript and you will have built many such apps at Fullstack. Read more about <a href="faq.html#why_javascript">why JavaScript</a>.</p>
+                       </div>
+                       <div class="panels-item span6">
+                         <i class="icon ion-clock text-color-theme"></i>
+                         <h5>Passionate, Experienced Instructors</h5>
+                         <p>Our instructors are seasoned fullstack hackers who are here because they <span class='dark-text'>love to teach</span> and are damn good at it. They have been lead-engineers at top companies and have built products with millions of users.</p>
+                       </div>
+                     </div> <!-- /row -->
+
+                     <div class="row">
+                       <div class="panels-item span6">
+                         <i class="icon ion-speedometer text-color-theme"></i>
+                         <h5>Full-Contact Prep Work</h5>
+                         <p>Fullstack Foundations, our pre-work course, is a full-featured programming course with an Instructor. It includes <span class='dark-text'>coding projects</span> and <span class='dark-text'>tutoring sessions with instructors</span>. Foundations will solidify your core programming concepts <em>before</em> the Academy starts to ensure you are truly ready to fly on day 1.</p>
+                       </div>
+                       <div class="panels-item span6">
+                         <i class="icon ion-clipboard text-color-theme"></i>
+                         <h5>Quality over Quantity</h5>
+                         <p>Every decision we make prioritizes <span class='dark-text'>high quality over quantity</span>. We've built a hyper-relevant curriculum with passionate instructors and a strong, nurturing community&mdash;Fullstack Academy is an environment where the best students will feel right at home.</p>
+                       </div>
+                     </div> <!-- /row -->
+
+                     <div class="row">
+                       <div class="panels-item span6">
+                         <i class="icon ion-paper-airplane text-color-theme"></i>
+                         <h5>CTO Program</h5>
+                         <p>Fullstack Academy's CTO Program, an included part of the course, goes beyond software and prepares you to become a leader in the industry. You will learn about lean startup principles, agile project management, the UX design process, open source development and much more. <a href="cto-curriculum.html">Learn More</a>.</p>
+                       </div>
+                       <div class="panels-item span6">
+                         <i class="icon ion-help-buoy text-color-theme"></i>
+                         <h5>In the greatest city on earth</h5>
+                         <p>New York City is an amazing place to spend three months learning. It is the epitome of a global city, reflecting the world in its expansive diversity of cultures and ideas. NYC is also host to a <span class='dark-text'>booming tech scene</span> full of exciting startups and helpful people!</p>
+                       </div>
+                     </div> <!-- /row -->
+
+
+                 </div> <!-- /services-1-content -->
+
+               </div> <!-- /row -->
+             </div> <!-- /container -->
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Start Parallax -->
+    <section id="parallax4" style='height: 350px;'>
+      <div class="bg6"></div>
+      <div class="pattern"></div>
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <div class="vertical-text" style='height: 350px;'>
+              <h2 class="white-text" style='margin-bottom: 35px;'>Recent Alumni Employers</h2>
+                <ul class="clients">
+                  <li><img src="img/clients/gilt2.png"></li>
+                  <li><img src="img/clients/inbox.png"></li>
+                  <li><img src="img/clients/priceline.png"></li>
+                  <!-- <li><img src="img/clients/hfa.png"></li> -->
+                  <li><img src="img/clients/m76.png"></li>
+                  <li><img src="img/clients/movableink.png"></li>
+                  <li><img src="img/clients/jibe.png"></li>
+                  <li><img src="img/clients/thrillist-logo.png"></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Parallax -->
+
+
+
+            <!-- CTO Curriculum -->
+            <!-- End CTO Curriculum -->
+
+<!--           </div>
+        </div>
+      </div>
+    </section>
+ -->
+    <!-- End Program Page -->
+    <!-- End Team Page -->
+
+    <!-- Start Students Page -->
+    <section id="students" class="page page-gray">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <div class="title">Our Students</div>
+            <hr>
+            <p class='normtext'>We're looking for students who are at the <span class='dark-text'>top of their game</span>. Here are characteristics that we are looking for in the application process.</p>
+            <div class="row">
+              <div class="span3">
+                <h5>Passion for coding</h5>
+                <p>You've demonstrated your passion by beginning to learn on your own. You have the determination to become a developer whether you get into <span class='color-text'>Fullstack</span> or not.</p>
+                <hr class="gray margin20 visible-phone">
+              </div>
+              <div class="span3">
+                <h5>Top of your game</h5>
+                <p>Whatever you've been working on so far, you've been among the best. You're helpful and facilitate the success of others around you.</p>
+                <hr class="gray margin20 visible-phone">
+              </div>
+              <div class="span3">
+                <h5>"No Asshole Rule"</h5>
+                <p>We like to live by a no-asshole policy. We look for students who are considerate, understanding, helpful and generally pleasant to be around.</p>
+                <hr class="gray margin20 visible-phone">
+              </div>
+              <div class="span3">
+                <h5>Dedicated to the journey</h5>
+                <p>Your time at <span class='color-text'>Fullstack</span> will be an intense journey. There will be both blood and glory. Are you ready to commit yourself to making it through?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Students Page -->
+
+    <!-- <div class="span3 testimonial">
+          <p class="testquote">David and Nimit will infect/inspire you with their passion/vision for tech, start-up culture, and business.  You will storm new terrain, highs and lows with your cohort, even make friends for life. We worked hard. Really, really hard. And got solid results that led me to a job in the music industry [as a software developer].</p>
+          <p class="student">Wenson Tsai</p>
+          <p class="school">Athena</p>
+        </div> -->
+
+    <!-- Start Parallax -->
+    <section id="parallax1" class='testimonial_parallax_home'>
+      <div class="bg1">      </div>
+
+      <div class="pattern"></div>
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <div class="vertical-text">
+              <!-- <div class="parallax-title">Testimonials</div> -->
+              <h1>Testimonials</h1>
+              <div class="row">
+                <div class="span3 testimonial">
+                  <p class="testquote">Nimit and David are incredibly patient and knowledgeable, and their passion for this space is visible and very motivating! </p>
+                  <p class="student">Anita Gupta</p>
+                  <p class="school">athenaHealth</p>
+                </div>
+
+                <div class="span3 testimonial">
+                  <p class="testquote">I learned a ton and had a great time with Nimit and David, and I'm pretty sure I added more to my marketability to future employers [by taking the course] than in my two years at HBS!</p>
+                  <p class="student">Neda Navab</p>
+                  <p class="school">Box.net</p>
+                </div>
+
+                <div class="span3 testimonial">
+                  <p class="testquote">Nimit and David are extremely competent and interested in teaching. They also have the valuable background of entrepreneurs that make their knowledge and teaching much more relevant.
+                  </p>
+                  <p class="student">Brett Lewis</p>
+                  <p class="school">Founder, Skillbridge.co</p>
+                </div>
+
+                <div class="span3 testimonial">
+                  <p class="testquote">Having tried other courses unsuccessfully, coding was intimidating to me. <b>The course allowed me the time to fail at, and then grasp each concept.</b></p>
+                  <p class="student">Jeremy Cohen</p>
+                  <p class="school">CEO, ExchangeMyPhone.com</p>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Parallax -->
+
+
+    <!-- Start Team Page -->
+    <section id="instructors" class="page">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+          <div class="title">The Founders</div>
+          <hr>
+                <div class="row" style='margin-bottom:10px;'>
+        <div class="span12 normtext">David and Nimit are both lead instructors at Fullstack and engineers who have each spent over 15 years programming, both professionally and as a hobby. They have built large e-commerce sites, an online gaming company with 6 million+ players, enterprise healthcare software, on all different kinds of platforms. They've worked together at Yahoo, on startups, and went through <span class='dark-text'><strong>Y Combinator</strong></span> together in Silicon Valley.
+        </div>
+      </div>
+      <br>
+      <!-- <div class="lead"></div> -->
+      <div class="row">
+        <!-- Start Profile -->
+        <div class="span4 offset1 profile">
+          <div style='text-align:center;'><img src="img/team/nimit.jpg" alt=""></div>
+          <div class="profile-name">Nimit Maru</div>
+          <div class="profile-job">Lead Instructor</div>
+          <div class="profile-desc">
+            <p>Nimit loves both writing code and teaching and so Fullstack is a true venture of love. Prior to Fullstack, he co-founded MBA Code School where he taught coding workshops at top MBA schools, co-founded Bloomspot, a local offers startup with millions of users that was acquired by JPMorgan/Chase and worked as an engineering lead at Yahoo!. Nimit discovered his love for teaching while volunteer-teaching middle school students as part of the West Philly Tutoring Project.</p>
+          </div>
+          <ul class="profile-social-icons">
+            <li><a href="https://twitter.com/nimit"><i class="fa fa-twitter-square"></i></a></li>
+            <li><a href="http://www.linkedin.com/in/nimit"><i class="fa fa-linkedin-square"></i></a></li>
+            <li><a href="https://github.com/nimitmaru"><i class="fa fa-github-square">
+            </i></a></li>
+          </ul>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+        <div class="span4 offset1 profile">
+          <div style='text-align:center;'><img src="img/team/david.jpg" alt=""></div>
+          <div class="profile-name">David Yang</div>
+          <div class="profile-job">Lead Instructor</div>
+          <div class="profile-desc">
+            <p>David's been building and managing NYC engineering tech teams for many years at companies like RecycleBank, Gilt Groupe and BrightWire Media.  David has previously worked as an engineer at Microsoft, IBM, Yahoo! and Deloitte Consulting but fell in love with the energy and spirit of teaching coding through MBA Code School.</p>
+          </div>
+          <ul class="profile-social-icons">
+            <li><a href="https://twitter.com/dyang"><i class="fa fa-twitter-square"></i></a></li>
+            <li><a href="http://www.linkedin.com/in/davidgyang"><i class="fa fa-linkedin-square"></i></a></li>
+            <li><a href="https://github.com/davidyang"><i class="fa fa-github-square">
+            </i></a></li>
+          </ul>
+        </div>
+        <!-- End Profile -->
+      </div> <!-- end row -->
+
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Team Page -->
+
+    <!-- Start Contact Page -->
+    <section id="applyflex" class="page page-gray">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+
+            <div class="title center-title">Apply to <span class="color-text">Fullstack</span> Flex Immersive</div>
+            <hr>
+            <div class="lead">
+              "Have the courage to follow your heart and intuition.<br class="visible-desktop" /> They somehow already know what you truly want to become."
+              <h5 class='lead-author'>- Steve Jobs</h5>
+            </div>
+            <div style="text-align:center">
+              <a href='apply.html' style="border:none"><button type="submit" class="btn blue"><i class="web-icon">&#0093;</i>Apply to Fullstack Flex Immersive</button></a>
+            </div>
+          </div>
+        </div>
+        <!-- End Form -->
+      </div>
+    </section>
+    <!-- End Contact Page -->
+
+
+      <!-- Start Sidebar -->
+    <section id="sidebar" class="new_footer">
+      <div class="container">
+        <div class="row">
+          <div class="span3 offset1">
+            <h5>Contact Us</h5>
+            <p><strong>E-mail:</strong> <span class="white-text">hello@fullstackacademy.com</span><br>
+            <!-- <strong>Phone:</strong> <span class="white-text">(347) 696-4372</span><br> -->
+            <strong>Location:</strong> <span class="white-text"><br>160 Pearl Street<br>Floor 6<br>New York, NY 10005<br>
+              <a href="https://www.google.com/maps/place/Fullstack+Academy+of+Code/@40.7057804,-74.0075702,14z/data=!4m2!3m1!1s0x89c25a163bf6a675:0x1f79c3d76948280f" target="_new">View on Google Maps</a></span></p>
+          </div>
+          <div class="span3">
+            <h5>Connect</h5>
+            <span class="white-text"><a href="http://blog.fullstackacademy.com/">Blog</a></span><br>
+            <span class="white-text"><a href="http://twitter.com/fullstack">Twitter</a></span><br>
+            <span class="white-text"><a href="http://www.quora.com/Reviews-of-Fullstack-Academy">Quora Reviews</a></span><br>
+            <span class="white-text"><a href="http://www.yelp.com/biz/fullstack-academy-of-code-new-york">Yelp Reviews</a></span><br>
+            <span class="white-text"><a href="https://www.facebook.com/FullstackAcademy">Facebook</a></span><br>
+            <!-- <span class="white-text"><a href="http://">Instagram</span><br> -->
+
+          </div>
+          <div class="span4">
+            <h5>About Fullstack Academy</h5>
+            <p>Fullstack Academy is an innovative web development school in New York City.</p>
+            <p>Fullstack is backed by <a href="http://ycombinator.com/">Y Combinator</a></p>
+            <span class="white-text"><a href="careers.html">Careers at Fullstack Academy</span><br>
+
+          </div>
+          <!-- <div class="span4">
+            <h5>Photostream</h5>
+            <ul id="basicuse" class="photostream thumbs unstyled"></ul>
+          </div> -->        </div>
+      </div>
+    </section>
+    <!-- End Sidebar -->
+    
+    <section id="copyright">
+      Fullstack Academy, Making Great People into Great Developers
+    </section>
+
+  </div>
+
+
+
+  <script src="assets/application-07c6585418739b45f3298638cfbff8a6.js" type="text/javascript"></script>
+
+
+        <script>
+        $(function() {startShow();});
+      </script>
+
+<script>
+
+$(function() {
+  //Pull params from URL and add user source to email signup form
+  addUserSourceToForm("#Field9", "utm_source");
+
+  $('#form54hometop').submit(function(e) {
+    e.preventDefault();
+      ga('send', 'event', 'immersive_home', 'get_schedule', '', 1);
+    $(this).unbind("submit").submit();
+  })
+
+  $('#whyroadtocodehometop').hover(function(e) {
+    $('#whyroadtocode-popoverhometop').fadeIn();
+    var offset = $(this).offset();
+    $('#whyroadtocode-popoverhometop').css({left: offset.left-100, top: offset.right+12});
+  }, function(e) {
+    $('#whyroadtocode-popoverhometop').fadeOut();
+  });
+});
+</script>
+
+
+<script>
+
+$(function() {
+  //Pull params from URL and add user source to email signup form
+  addUserSourceToForm("#Field9", "utm_source");
+
+  $('#form54home').submit(function(e) {
+    e.preventDefault();
+      ga('send', 'event', 'immersive_home', 'get_schedule', '', 1);
+    $(this).unbind("submit").submit();
+  })
+
+  $('#whyroadtocodehome').hover(function(e) {
+    $('#whyroadtocode-popoverhome').fadeIn();
+    var offset = $(this).offset();
+    $('#whyroadtocode-popoverhome').css({left: offset.left-100, top: offset.right+12});
+  }, function(e) {
+    $('#whyroadtocode-popoverhome').fadeOut();
+  });
+});
+</script>
+
+              <script type="text/javascript">
+              $(document).ready(function() {
+                location.hash && $(location.hash).addClass("current");
+              });
+              </script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        var readMore = function(elementName, cutoff) {
+
+          $.each($(elementName), function(ind, el) {
+            var text = $(el).html();
+            var rest = text.substring(cutoff);
+
+            if (text.length > cutoff) {
+              var space = rest.indexOf(' ');
+              cutoff += Math.max(space, 0);
+            }
+
+            // Assign the rest again, because we recalculated the cutoff
+            rest = text.substring(cutoff);
+            var visibleText = $(el).html().substring(0, cutoff);
+
+            if(rest.length > 0) {
+              $(el)
+                    .html(visibleText + ('<span>' + rest + '</span>'))
+                    .append('&hellip; <a title="Read More" class="test_read_more_link">Read More</a>')
+                    .click(function() {
+                        $(this).find('span').toggle();
+                        $(this).find('a:last').hide();
+                    });
+
+              $("span", el).hide();
+            }
+          });
+        }
+
+        readMore(".testquote", 200);
+      });
+    </script>
+
+
+        <script type="text/javascript">
+      (function() {
+        window._pa = window._pa || {};
+        // _pa.orderId = "myCustomer@email.com"; // OPTIONAL: attach user email or order ID to conversions
+        // _pa.revenue = "19.99"; // OPTIONAL: attach dynamic purchase values to conversions
+        var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
+        pa.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + "//tag.perfectaudience.com/serve/5216286c015cf026480000d2.js";
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(pa, s);
+      })();
+    </script>
+  
+  <!-- Google Code for Remarketing Tag -->
+  <!-- -----------------------------------------------
+  Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+  ------------------------------------------------- -->
+
+  <script type="text/javascript">
+  /* <![CDATA[ */
+  var google_conversion_id = 998131937;
+  var google_custom_params = window.google_tag_params;
+  var google_remarketing_only = true;
+  /* ]]> */
+  </script>
+  <script type="text/javascript" src="../www.googleadservices.com/pagead/f.txt">
+  </script>
+  <noscript>
+  <div style="display:inline;">
+  <img height="1" width="1" style="border-style:none;" alt="" src="http://googleads.g.doubleclick.net/pagead/viewthroughconversion/998131937/?value=0&amp;guid=ON&amp;script=0"/>
+  </div>
+  </noscript>
+  
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','../www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-42080648-1', 'fullstackacademy.com');
+      ga('create', 'UA-52443907-1', 'auto', {'name': 'services@yealthy'});  // New tracker.
+      ga('require', 'displayfeatures');
+      ga('send', 'pageview');
+
+    </script>
+    
+      
+    
+    <!-- begin olark code -->
+    <script data-cfasync="false" type='text/javascript'>/*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
+    f[z]=function(){
+    (a.s=a.s||[]).push(arguments)};var a=f[z]._={
+    },q=c.methods.length;while(q--){(function(n){f[z][n]=function(){
+    f[z]("call",n,arguments)}})(c.methods[q])}a.l=c.loader;a.i=nt;a.p={
+    0:+new Date};a.P=function(u){
+    a.p[u]=new Date-a.p[0]};function s(){
+    a.P(r);f[z](r)}f.addEventListener?f.addEventListener(r,s,false):f.attachEvent("on"+r,s);var ld=function(){function p(hd){
+    hd="head";return["<",hd,"></",hd,"><",i,' onl' + 'oad="var d=',g,";d.getElementsByTagName('head')[0].",j,"(d.",h,"('script')).",k,"='",l,"//",a.l,"'",'"',"></",i,">"].join("")}var i="body",m=d[i];if(!m){
+    return setTimeout(ld,100)}a.P(1);var j="appendChild",h="createElement",k="src",n=d[h]("div"),v=n[j](d[h](z)),b=d[h]("iframe"),g="document",e="domain",o;n.style.display="none";m.insertBefore(n,m.firstChild).id=z;b.frameBorder="0";b.id=z+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){
+    b.src="javascript:false"}b.allowTransparency="true";v[j](b);try{
+    b.contentWindow[g].open()}catch(w){
+    c[e]=d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{
+    var t=b.contentWindow[g];t.write(p());t.close()}catch(x){
+    b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};ld()};nt()})({
+    loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});
+    /* custom configuration goes here (www.olark.com/documentation) */
+    olark.identify('5693-613-10-1186');/*]]>*/</script><noscript><a href="https://www.olark.com/site/5693-613-10-1186/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by <a href="http://www.olark.com/?welcome" title="Olark live chat software">Olark live chat software</a></noscript>
+    <!-- end olark code -->
+</body>
+
+
+<!-- Mirrored from www.fullstackacademy.com/flex-immersive by HTTrack Website Copier/3.x [XR&CO'2013], Fri, 10 Oct 2014 19:12:10 GMT -->
+</html>
