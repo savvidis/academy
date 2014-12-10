@@ -64,7 +64,9 @@ text-align: center;
 /*line-height: 1.3;*/
 
 }
-
+.logo {
+	margin-top: -8px;
+}
 #slidecaption .sub-caption {
 font: 34px 'Open Sans', 'Trebuchet MS', sans-serif;
 text-transform: none;
